@@ -2,14 +2,13 @@
 Status: Alpha
 
 ### DESCRIPTION:
-It does as the name suggests, it disables and removes...
-- the `MeetNow` program.
+It does as the name suggests, it disables and removes only the `Meet Now` feature, that is installed into Skype through Windows Update, however, to correctly achieve this, Skype also has to be removed. If you use it, try a multi-messenger alternative, or just re-install a earlier version of Skype. The main thing is `Meet Now` is no-longer in your tray. I didnt test it but possibly you can just use the A001 version, and restart and Skype be ok, I left that available for download. In my case, I didnt have `Skype` installed anyhow, so, burning and destroying, villages to get rid of the `BundleWare` was my protocol.
 
 ### REQUIREMENTS:
 - Programmed towards and tested upon, Windows 10.
 
 ### PREVIEW:
-- Version A001 (it did not remove the tray icon, but skype is ok)...
+- Version A001 (it did not remove the tray icon, but skype is left alone)...
 ```
 Init: Start
 Status: Administrator
@@ -24,7 +23,7 @@ Success: Verified
 --------------------------------------
 Status: Complete
 ```
-- Version A002 (it did the job of immediately removing the Meet Now icon, and, destroying and burning. skype villages in the process)...
+- Version A002 (immediately disables the features, then removes Skype Entirely, thus the `Meet Now` icon in tray is GONE...
 ```
 Init: Start
 Status: Administrator
