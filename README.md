@@ -9,7 +9,7 @@ It does as the name suggests, it disables and removes...
 - Programmed towards and tested upon, Windows 10.
 
 ### PREVIEW:
-- Version A001...
+- Version A001 (it did not remove the tray icon, but skype is ok)...
 ```
 Init: Start
 Status: Administrator
@@ -23,6 +23,26 @@ Task: Verify Icon Gone
 Success: Verified
 --------------------------------------
 Status: Complete
+```
+- Version A002 (it did the job of immediately removing the Meet Now icon, and, destroying and burning. skype villages in the process)...
+```
+Init: Start
+Status: Administrator
+Task: Disable Meet Now
+Success: Reg Updated
+Task: Hide Icon
+Success: Icon Hidden
+Task: Kill MeetNow/Skype
+Error: Kill Fail
+Task: Uninstall Skype
+Success: Uninstalled
+Task: Disable from Taskbar
+Success: Tray Icon Removed
+Task: Verify Icon Gone
+Success: Verified
+--------------------------------------
+Status: Complete
+Press any key to continue . . .
 ```
 
 ## USAGE:
